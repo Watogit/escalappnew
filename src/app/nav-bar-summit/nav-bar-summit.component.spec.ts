@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OpcionesComponent } from './opciones.component';
+import { NavBarSummitComponent } from './nav-bar-summit.component';
 
-describe('OpcionesComponent', () => {
-  let component: OpcionesComponent;
-  let fixture: ComponentFixture<OpcionesComponent>;
+describe('NavBarSummitComponent', () => {
+  let component: NavBarSummitComponent;
+  let fixture: ComponentFixture<NavBarSummitComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ OpcionesComponent ]
+      declarations: [ NavBarSummitComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(OpcionesComponent);
+    fixture = TestBed.createComponent(NavBarSummitComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -8,10 +8,13 @@ import { HomeComponent } from './home/home.component';
 import { LandingComponent } from './landing/landing.component';
 import { FiltrosComponent } from './filtros/filtros.component';
 import { CamaraComponent } from './camara/camara.component';
-import { OpcionesComponent } from './opciones/opciones.component';
+
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { BusquedaComponent } from './busqueda/busqueda.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { NavBarSummitComponent } from './nav-bar-summit/nav-bar-summit.component';
+import { ListaEscuelasComponent } from './lista-escuelas/lista-escuelas.component';
+import { AppiGoogleMapsComponent } from './appi-google-maps/appi-google-maps.component';
 
 
 //la contante de mi Routermodule
@@ -32,10 +35,6 @@ const routes: Routes = [
   {
     path: 'camara',
     component:CamaraComponent,
-  },
-  {
-   path: 'opciones',
-   component: OpcionesComponent,
   },
   {
     path: 'busqueda',
@@ -75,10 +74,12 @@ const routes: Routes = [
     LandingComponent,
     FiltrosComponent,
     CamaraComponent,
-    OpcionesComponent,
     PageNotFoundComponent,
     BusquedaComponent,
     NavBarComponent,
+    NavBarSummitComponent,
+    ListaEscuelasComponent,
+    AppiGoogleMapsComponent,
   ],
   imports: [
     BrowserModule,
