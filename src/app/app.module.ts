@@ -76,6 +76,10 @@ const routes: Routes = [
     component: NinoRComponent,
   },
   {
+    path:'lnino-r',
+    component:LNinoRComponent,
+  },
+  {
     path:'',
     redirectTo: '/home',
     pathMatch:'full',
