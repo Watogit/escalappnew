@@ -1,0 +1,22 @@
+div {
+    background-color: #6655b3;
+  }
+  
+  aside {
+    width: 720px;
+    float: right;
+    height: 600px;
+    margin-bottom: 10px;
+    background-color: #6655b3;
+  }
+  
+  .tabla-con-imagenes table {
+    float: left;
+    padding:20px;
+  }
+  
+  .tabla-con-imagenes img {
+    max-width: 40%;
+    height: auto;
+    display: block;
+  }
