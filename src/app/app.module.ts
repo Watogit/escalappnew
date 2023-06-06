@@ -15,6 +15,13 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { NavBarSummitComponent } from './nav-bar-summit/nav-bar-summit.component';
 import { ListaEscuelasComponent } from './lista-escuelas/lista-escuelas.component';
 import { AppiGoogleMapsComponent } from './appi-google-maps/appi-google-maps.component';
+import { SutatausaComponent } from './sutatausa/sutatausa.component';
+import { MapsZonasComponent } from './maps-zonas/maps-zonas.component';
+import { ListaZonasSutaComponent } from './lista-zonas-suta/lista-zonas-suta.component';
+import { SutaZonaSolComponent } from './suta-zona-sol/suta-zona-sol.component';
+import { SolBloquesComponent } from './sol-bloques/sol-bloques.component';
+import { NinoRComponent } from './nino-r/nino-r.component';
+import { LNinoRComponent } from './lnino-r/lnino-r.component';
 
 
 //la contante de mi Routermodule
@@ -43,6 +50,30 @@ const routes: Routes = [
   {
     path:'nav-bar',
     component:NavBarComponent,
+  },
+  {
+    path: 'sutatausa',
+    component:SutatausaComponent,
+  },
+  {
+    path: 'map-zonas',
+    component: MapsZonasComponent,
+  },
+  {
+    path:'lista-zonas-suta',
+    component:ListaZonasSutaComponent,
+  },
+  {
+    path:'suta-zona-sol',
+    component:SutaZonaSolComponent,
+  },
+  {
+    path:'sol-bloques',
+    component:SolBloquesComponent,
+  },
+  {
+    path:'nino-r',
+    component: NinoRComponent,
   },
   {
     path:'',
@@ -80,6 +111,13 @@ const routes: Routes = [
     NavBarSummitComponent,
     ListaEscuelasComponent,
     AppiGoogleMapsComponent,
+    SutatausaComponent,
+    MapsZonasComponent,
+    ListaZonasSutaComponent,
+    SutaZonaSolComponent,
+    SolBloquesComponent,
+    NinoRComponent,
+    LNinoRComponent,
   ],
   imports: [
     BrowserModule,
