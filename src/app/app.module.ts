@@ -11,6 +11,7 @@ import { CamaraComponent } from './camara/camara.component';
 import { OpcionesComponent } from './opciones/opciones.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { BusquedaComponent } from './busqueda/busqueda.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 
 //la contante de mi Routermodule
@@ -41,6 +42,10 @@ const routes: Routes = [
     component: BusquedaComponent,
   },
   {
+    path:'nav-bar',
+    component:NavBarComponent,
+  },
+  {
     path:'',
     redirectTo: '/home',
     pathMatch:'full',
@@ -53,11 +58,14 @@ const routes: Routes = [
 
 /*-- los modulos d emi app--*/
 
-// landing
-//home
-//filtros
-//camara
-//opciones
+// home
+//-landing
+//-Navbar
+//--filtros
+//--camara
+//--opciones
+//---busqueda
+
 
 
 @NgModule({
@@ -70,6 +78,7 @@ const routes: Routes = [
     OpcionesComponent,
     PageNotFoundComponent,
     BusquedaComponent,
+    NavBarComponent,
   ],
   imports: [
     BrowserModule,
